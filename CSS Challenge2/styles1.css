@@ -1,0 +1,31 @@
+main {
+  margin: 50px 50px;
+}
+
+section {
+  border: 1px solid black;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: blue;
+}
+
+section h4 {
+  color: red;
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}
+
+h4 {
+  color: coral;
+  font-weight: bold;
+}
+
+h4 + h4 {
+  color: brown;
+  font-weight: normal;
+}

@@ -1,0 +1,15 @@
+h1 + p {
+  font-style: italic;
+}
+
+h1 ~ div {
+  color: rgb(182, 181, 181);
+}
+
+h3 ~ p {
+  text-decoration: underline;
+}
+
+h4 ~ div {
+  color: blue;
+}
