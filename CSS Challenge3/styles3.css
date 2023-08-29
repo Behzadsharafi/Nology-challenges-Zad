@@ -1,0 +1,80 @@
+/* body {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+}
+
+div {
+  background-color: aqua;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+#container1 {
+  flex-direction: column-reverse;
+}
+
+#container2 {
+  flex-direction: row-reverse;
+}
+
+#card1 {
+  background-color: aqua;
+}
+#card2 {
+  background-color: rgb(236, 85, 85);
+}
+#card3 {
+  background-color: greenyellow;
+}
+#card4 {
+  background-color: orange;
+}
+#card5 {
+  background-color: pink;
+}
+#card6 {
+  background-color: grey;
+}
+#card7 {
+  background-color: rgb(211, 255, 255);
+}
+#card8 {
+  background-color: rgb(112, 112, 255);
+} */
+
+main div {
+  background-color: aqua;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  /* gap: 10px;
+  padding: 10px; */
+}
+
+section {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+}
