@@ -41,41 +41,34 @@
 
 // Define the parent eye colors (replace these with actual colors)
 
-const parent1 = "brown";
-const parent2 = "brown";
+const parent1 = "green";
+const parent2 = "green";
 
 let message, brownChance, greenChance, blueChance;
 
-switch (`${parent1}-${parent2}`) {
-  case "brown-brown":
+switch (true) {
+  case (parent1 === "brown" && parent2 === "brown") ||
+    (parent1 === "blue" && parent2 === "brown") ||
+    (parent1 === "brown" && parent2 === "blue"):
     brownChance = 75;
     greenChance = 18.75;
     blueChance = 6.25;
     break;
-  case "green-brown":
+  case parent1 === "green" && parent2 === "brown":
     brownChance = 50;
     greenChance = 37.5;
     blueChance = 12.5;
     break;
-  case "blue-brown":
-    brownChance = 50;
-    greenChance = 0;
-    blueChance = 50;
-    break;
-  case "green-green":
-    brownChance = 0.01; // Less than 1%
+  case parent1 === "green" && parent2 === "green":
+    brownChance = 0.01;
     greenChance = 75;
     blueChance = 25;
     break;
-  case "green-blue":
+  case (parent1 === "green" && parent2 === "blue") ||
+    (parent1 === "blue" && parent2 === "blue"):
     brownChance = 0;
     greenChance = 50;
     blueChance = 50;
-    break;
-  case "blue-blue":
-    brownChance = 0;
-    greenChance = 1;
-    blueChance = 99;
     break;
   default:
     message = "Not Enough Info";
