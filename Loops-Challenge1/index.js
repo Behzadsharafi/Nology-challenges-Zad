@@ -1,78 +1,78 @@
 // Create a function with a for loop that will add all the numbers up to n
 
-function sum(n) {
-  let result = 0;
-  for (let i = 1; i <= n; i++) {
-    result += i;
-  }
-  return result;
-}
+// function sum(n) {
+//   let result = 0;
+//   for (let i = 1; i <= n; i++) {
+//     result += i;
+//   }
+//   return result;
+// }
 
-//  Using the math formula
+// //  Using the math formula
 
-function sum2(n) {
-  const sum = (n * (n + 1)) / 2;
-  return sum;
-}
+// function sum2(n) {
+//   const sum = (n * (n + 1)) / 2;
+//   return sum;
+// }
 
 // Create a function with a for loop that will add numbers to your shopping list
 
-const shoppingList = [
-  "milk",
-  "watermelon",
-  "eggs",
-  "soap",
-  "butter",
-  "apples",
-  "ice-cream",
-];
+// const shoppingList = [
+//   "milk",
+//   "watermelon",
+//   "eggs",
+//   "soap",
+//   "butter",
+//   "apples",
+//   "ice-cream",
+// ];
 
-function printShoppingList(array) {
-  for (let i = 0; i < array.length; i++) {
-    console.log(i + 1 + "." + array[i]);
-  }
-}
+// function printShoppingList(array) {
+//   for (let i = 0; i < array.length; i++) {
+//     console.log(i + 1 + "." + array[i]);
+//   }
+// }
 
-printShoppingList(shoppingList);
+// printShoppingList(shoppingList);
 
 // Challenge: Capitalizing Odd Positioned Letters
 
-const str = "harrypotter";
-function capitalizeOdds(string) {
-  let newString = "";
-  for (let i = 0; i < string.length; i++) {
-    let modifiedChar = i % 2 ? string[i].toUpperCase() : string[i];
-    newString += modifiedChar;
-  }
-  return newString;
-}
+// const str = "harrypotter";
+// function capitalizeOdds(string) {
+//   let newString = "";
+//   for (let i = 0; i < string.length; i++) {
+//     let modifiedChar = i % 2 ? string[i].toUpperCase() : string[i];
+//     newString += modifiedChar;
+//   }
+//   return newString;
+// }
 
-console.log(capitalizeOdds(str));
+// console.log(capitalizeOdds(str));
 
 //Bonus
 
-const str2 = "zzzz";
-function incrementLetter(string) {
-  let newString = "";
+// const str2 = "zzzz";
+// function incrementLetter(string) {
+//   let newString = "";
 
-  for (let i = 0; i < string.length; i++) {
-    let modifiedChar;
+//   for (let i = 0; i < string.length; i++) {
+//     let modifiedChar;
 
-    if (string[i] === "z") {
-      modifiedChar = "a";
-    } else if (i % 2 === 0) {
-      modifiedChar = String.fromCharCode(string[i].charCodeAt(0) + 1);
-    } else {
-      modifiedChar = string[i];
-    }
+//     if (string[i] === "z") {
+//       modifiedChar = "a";
+//     } else if (i % 2 === 0) {
+//       modifiedChar = String.fromCharCode(string[i].charCodeAt(0) + 1);
+//     } else {
+//       modifiedChar = string[i];
+//     }
 
-    newString += modifiedChar;
-  }
+//     newString += modifiedChar;
+//   }
 
-  return newString;
-}
+//   return newString;
+// }
 
-console.log(incrementLetter(str2));
+// console.log(incrementLetter(str2));
 
 //Challenge: Removing Vowels
 
