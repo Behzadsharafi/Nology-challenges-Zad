@@ -1,0 +1,17 @@
+.home {
+  display: flex;
+  // border: 1px solid rgb(37, 37, 37, 0.2);
+  // box-shadow: 2px 3px 11px 0px rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 800px;
+  height: 60vh;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
+  // align-items: center;
+  // height: 80vh;
+  // width: 70%;
+}
