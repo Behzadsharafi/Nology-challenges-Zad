@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto:wght@100;400&family=Skranji:wght@400;700&display=swap");
+
 .card {
   display: flex;
   flex-direction: column;
@@ -11,12 +13,16 @@
   color: white;
   border-radius: 5px;
   font-size: xx-small;
+  font-family: "Montserrat", sans-serif;
 
   &_zeroMoon {
     background-color: rgb(190, 188, 188);
     color: black;
   }
-
+  & h2 {
+    font-family: "Skranji", cursive;
+    font-weight: 700;
+  }
   & img {
     width: 60%;
   }
